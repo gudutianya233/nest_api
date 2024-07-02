@@ -27,8 +27,8 @@ export class MailService {
     // 调用sendMail方法
     return await this.mailerService
       .sendMail({
-        to: '564836733@qq.com', //接受邮件的邮箱
-        from: '1917996727@qq.com', //发送邮件的smtp的邮箱
+        to: '', //接受邮件的邮箱
+        from: '', //发送邮件的smtp的邮箱
         subject: subject,
         text: text,
         html: html,
@@ -45,7 +45,7 @@ export class MailService {
   }
 
 
- // 发送御生堂投诉内容邮件
+ // 发送投诉内容邮件
  async complaintMail(from: any): Promise<any> {
     const date = new Date().toLocaleString('zh-CN', {
       timeZone: 'Asia/Shanghai',
@@ -53,7 +53,7 @@ export class MailService {
     // 保存信息到数据库中
     await this.saveComplaintMail(from);
     // 构造邮件主题
-    const subject = `投诉标题:${from.title}-投诉时间:${date}-御生堂`;
+    const subject = `投诉标题:${from.title}-投诉时间:${date}-`;
     // 构造邮件正文
     const text = `投诉标题${from.title}\n投诉内容：${from.content}\n联系电话：${from.phone}`;
     // 构造邮件HTML格式
@@ -61,8 +61,8 @@ export class MailService {
     // 调用sendMail方法
     return await this.mailerService
       .sendMail({
-        to: ['442683747@qq.com', '331073190@qq.com'], //接受邮件的邮箱
-        from: '1917996727@qq.com', //发送邮件的smtp的邮箱
+        to: ['', ''], //接受邮件的邮箱
+        from: '', //发送邮件的smtp的邮箱
         subject: subject,
         text: text,
         html: html,
@@ -89,49 +89,5 @@ export class MailService {
         });
         await this.complaintMailRepository.save(complaintMail)
     }
-
-
- //宝芝堂挂号信息发送邮件给管理员
-async registerMail(user_register:UserRegister){
-   // 构造邮件主题
-   const subject = `【宝芝堂-公众号网页挂号缴费成功】`;
-   const sex=user_register.patient.sex ? '男' : '女'
-   let status = ''
-   if (user_register.status == 2) {
-     status = '上午'
-   }
-   else {
-     status = '下午'
-   }
-   // 构造邮件正文
-   const text = `就诊人：${user_register.patient_name}\n电话：${user_register.phone}\n性别：${sex}
-   \n年龄：${user_register.patient.age}\n就诊医生：${user_register.doctor.name}
-   \n挂号费：${user_register.pay_money}\n就诊日期${user_register.work_time}-${status}
-   \n病请描述：${user_register.describe}`;
-   // 构造邮件HTML格式
-   const html = `<p>就诊人：${user_register.patient_name}</p><p>电话：${user_register.phone}</p>
-   <p>性别：${sex}</p><p>年龄：${user_register.patient.age}</p><p>就诊医生：${user_register.doctor.name}</p>
-   <p>挂号费：${user_register.pay_money}</p><p>就诊日期：${user_register.work_time}-${status}</p>
-   <p>病请描述：${user_register.describe}</p>`;
-    // 调用sendMail方法
-    return await this.mailerService
-      .sendMail({
-        to: '1768400045@qq.com', //接受邮件的邮箱
-       // to: ['wzy495678635@163.com','caolina12345678@163.com'], //接受邮件的邮箱
-        from: '1917996727@qq.com', //发送邮件的smtp的邮箱
-        subject: subject,
-        text: text,
-        html: html,
-      })
-      .then((result) => {
-        // 发送成功，返回一个对象
-        console.log(result);
-        return { status: 200, message: '发送成功' };
-      })
-      .catch((error) => {
-        // 发送失败，返回错误信息
-        return error;
-      });
-}
 
 }

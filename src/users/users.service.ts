@@ -1393,9 +1393,9 @@ async getUserInfo(access_token: string, openid: string) {
       status = '下午'
     }
     //消息点击后，跳转到指定页面
-    const messageUrl = 'http://365bzt.bztzyg.com/personal_Information';
+    const messageUrl = '';
     // 消息模板ID
-    const templateId = '2VCMDr6oOqTJixQbkEL8Po3GJIhf_KZgXFVkH9DZBwA';
+    const templateId = '';
     // 模板中各参数的赋值内容
     const data = {
       first: {
@@ -1450,9 +1450,9 @@ async getUserInfo(access_token: string, openid: string) {
       status = '下午'
     }
     //消息点击后，跳转到指定页面(当前医生的预约信息的手机-医生助手)
-    const messageUrl = 'http://365bzt.bztzyg.com/assistant';
+    const messageUrl = '';
     // 消息模板ID
-    const templateId = '2VCMDr6oOqTJixQbkEL8Po3GJIhf_KZgXFVkH9DZBwA';
+    const templateId = '';
     // 模板中各参数的赋值内容
     const data = {
       first: {
@@ -1471,7 +1471,7 @@ async getUserInfo(access_token: string, openid: string) {
       },
       //预约医院
       hospitalName: {
-        value: '成都宝芝堂中医馆',
+        value: '中医馆',
         color: '#173177'
       },
       //预约科室
@@ -1507,9 +1507,9 @@ async getUserInfo(access_token: string, openid: string) {
       status = '下午'
     }
     //消息点击后，跳转到指定页面(所有挂号信息)
-    const messageUrl = 'http://365bzt.bztzyg.com/admin';
+    const messageUrl = '';
     // 消息模板ID
-    const templateId = '2VCMDr6oOqTJixQbkEL8Po3GJIhf_KZgXFVkH9DZBwA';
+    const templateId = '';
     // 模板中各参数的赋值内容
     const data = {
       first: {
@@ -1528,7 +1528,7 @@ async getUserInfo(access_token: string, openid: string) {
       },
       //预约医院
       hospitalName: {
-        value: '成都宝芝堂中医馆',
+        value: '中医馆',
         color: '#173177'
       },
       //预约科室
@@ -1736,9 +1736,9 @@ async getUserInfo(access_token: string, openid: string) {
   //给用户推送退款消息
   async sendOrderRefundMessage(openid: string, userRegister: UserRegister) {
     //消息点击后，跳转到指定页面(当前医生的预约信息的手机-医生助手)
-    const messageUrl = 'http://365bzt.bztzyg.com/personal_Information';
+    const messageUrl = '';
     // 消息模板ID
-    const templateId = 'NczV3kgLUCnqfXr6kfFjgh5BDV-vC__Tm-pSmOASJug';
+    const templateId = '';
     // 模板中各参数的赋值内容
     const data = {
       first: {
@@ -1762,8 +1762,8 @@ async getUserInfo(access_token: string, openid: string) {
       },
       //退款详情
       keyword4: {
-        value: `成都宝芝堂中医馆${userRegister.doctor.name}医生的挂号费
-          如您需要退款中有任何问题，请咨询客服电话028-62100012反馈意见和建议。有您的支持，我们会做的更好！`,
+        value: `${userRegister.doctor.name}医生的挂号费
+          如您需要退款中有任何问题，请咨询客服电话反馈意见和建议。有您的支持，我们会做的更好！`,
         color: '#173177'
       },
     };
@@ -1773,9 +1773,9 @@ async getUserInfo(access_token: string, openid: string) {
   //给管理员推送退款信息
   async sendAdminRefundMessage(openid: string, userRegister: UserRegister) {
     //消息点击后，跳转到指定页面(当前医生的预约信息的手机-医生助手)
-    const messageUrl = 'http://365bzt.bztzyg.com/admin';
+    const messageUrl = '';
     // 消息模板ID
-    const templateId = 'NczV3kgLUCnqfXr6kfFjgh5BDV-vC__Tm-pSmOASJug';
+    const templateId = '';
     // 模板中各参数的赋值内容
     const data = {
       first: {
@@ -2004,9 +2004,9 @@ async getUserInfo(access_token: string, openid: string) {
       status = '下午'
     }
     //消息点击后，跳转到指定页面
-    const messageUrl = 'http://365bzt.bztzyg.com/personal_Information';
+    const messageUrl = '';
     // 消息模板ID
-    const templateId = 'xaEUkGiSlRReu38A0buf7K1DVAMYZl2fPRrk8lMEA-8';
+    const templateId = '';
     // 模板中各参数的赋值内容
     const data = {
       first: {

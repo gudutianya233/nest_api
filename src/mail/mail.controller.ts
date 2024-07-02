@@ -25,7 +25,7 @@ export class MailController {
     }
 
     @Public()
-    @ApiOperation({ summary: '御生堂投诉内容发送邮件' })
+    @ApiOperation({ summary: '投诉内容发送邮件' })
     @Post('complaintMail')
     async complaintMail(@Body() body: any) {
         const from = body.from;

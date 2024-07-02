@@ -13,12 +13,12 @@ import { ComplaintMail } from './entities/complaintMail.entity';
     ignoreTLS: true,
     secure: false,
     auth: {
-      user: '1917996727@qq.com',//发送邮件的smtp的邮箱
-      pass: 'akirtihygquzfcid',//发送邮件的smtp的邮箱的授权码
+      user: '',//发送邮件的smtp的邮箱
+      pass: '',//发送邮件的smtp的邮箱的授权码
     },
   },
   defaults: {
-    from: '1917996727@qq.com',//发送邮件的smtp的邮箱
+    from: '',//发送邮件的smtp的邮箱
   },
   preview: false,
   template: {
