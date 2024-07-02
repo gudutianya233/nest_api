@@ -1,3 +1,4 @@
+<<<<<<< .mine
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -64,7 +65,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil MyÅ›liwiec](https://kamilmysliwiec.com)
+- Author - [Kamil My?liwiec](https://kamilmysliwiec.com)
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
@@ -74,81 +75,237 @@ Nest is [MIT licensed](LICENSE).
 
 ```
 nest
-â”œâ”€ .env
-â”œâ”€ .eslintrc.js
-â”œâ”€ .git
-â”‚  â”œâ”€ config
-â”‚  â”œâ”€ description
-â”‚  â”œâ”€ HEAD
-â”‚  â”œâ”€ hooks
-â”‚  â”‚  â”œâ”€ applypatch-msg.sample
-â”‚  â”‚  â”œâ”€ commit-msg.sample
-â”‚  â”‚  â”œâ”€ fsmonitor-watchman.sample
-â”‚  â”‚  â”œâ”€ post-update.sample
-â”‚  â”‚  â”œâ”€ pre-applypatch.sample
-â”‚  â”‚  â”œâ”€ pre-commit.sample
-â”‚  â”‚  â”œâ”€ pre-merge-commit.sample
-â”‚  â”‚  â”œâ”€ pre-push.sample
-â”‚  â”‚  â”œâ”€ pre-rebase.sample
-â”‚  â”‚  â”œâ”€ pre-receive.sample
-â”‚  â”‚  â”œâ”€ prepare-commit-msg.sample
-â”‚  â”‚  â”œâ”€ push-to-checkout.sample
-â”‚  â”‚  â””â”€ update.sample
-â”‚  â”œâ”€ info
-â”‚  â”‚  â””â”€ exclude
-â”‚  â”œâ”€ objects
-â”‚  â”‚  â”œâ”€ info
-â”‚  â”‚  â””â”€ pack
-â”‚  â””â”€ refs
-â”‚     â”œâ”€ heads
-â”‚     â””â”€ tags
-â”œâ”€ .gitignore
-â”œâ”€ .prettierrc
-â”œâ”€ log
-â”‚  â””â”€ typeOrmæ—¥å¿—
-â”œâ”€ nest-cli.json
-â”œâ”€ package-lock.json
-â”œâ”€ package.json
-â”œâ”€ README.md
-â”œâ”€ src
-â”‚  â”œâ”€ app.controller.spec.ts
-â”‚  â”œâ”€ app.controller.ts
-â”‚  â”œâ”€ app.module.ts
-â”‚  â”œâ”€ app.service.ts
-â”‚  â”œâ”€ auth
-â”‚  â”‚  â”œâ”€ auth.controller.spec.ts
-â”‚  â”‚  â”œâ”€ auth.controller.ts
-â”‚  â”‚  â”œâ”€ auth.module.ts
-â”‚  â”‚  â”œâ”€ auth.service.spec.ts
-â”‚  â”‚  â””â”€ auth.service.ts
-â”‚  â”œâ”€ log
-â”‚  â”‚  â””â”€ LoggerMiddleware.ts
-â”‚  â”œâ”€ main.ts
-â”‚  â”œâ”€ users
-â”‚  â”‚  â”œâ”€ dto
-â”‚  â”‚  â”‚  â”œâ”€ login_users.dto.ts
-â”‚  â”‚  â”‚  â””â”€ user_status.dto.ts
-â”‚  â”‚  â”œâ”€ entities
-â”‚  â”‚  â”‚  â””â”€ users.entity.ts
-â”‚  â”‚  â”œâ”€ users.controller.spec.ts
-â”‚  â”‚  â”œâ”€ users.controller.ts
-â”‚  â”‚  â”œâ”€ users.module.ts
-â”‚  â”‚  â”œâ”€ users.service.spec.ts
-â”‚  â”‚  â””â”€ users.service.ts
-â”‚  â””â”€ wechat_api
-â”‚     â”œâ”€ dto
-â”‚     â”œâ”€ entities
-â”‚     â”‚  â”œâ”€ WeChatAccessToken.entity.ts
-â”‚     â”‚  â””â”€ WeChatAccessTokenRepository.ts
-â”‚     â”œâ”€ wechat.controller.spec.ts
-â”‚     â”œâ”€ wechat.controller.ts
-â”‚     â”œâ”€ wechat.module.ts
-â”‚     â”œâ”€ wechat.service.spec.ts
-â”‚     â””â”€ wechat.service.ts
-â”œâ”€ test
-â”‚  â”œâ”€ app.e2e-spec.ts
-â”‚  â””â”€ jest-e2e.json
-â”œâ”€ tsconfig.build.json
-â””â”€ tsconfig.json
+©À©¤ .env
+©À©¤ .eslintrc.js
+©À©¤ .git
+©¦  ©À©¤ config
+©¦  ©À©¤ description
+©¦  ©À©¤ HEAD
+©¦  ©À©¤ hooks
+©¦  ©¦  ©À©¤ applypatch-msg.sample
+©¦  ©¦  ©À©¤ commit-msg.sample
+©¦  ©¦  ©À©¤ fsmonitor-watchman.sample
+©¦  ©¦  ©À©¤ post-update.sample
+©¦  ©¦  ©À©¤ pre-applypatch.sample
+©¦  ©¦  ©À©¤ pre-commit.sample
+©¦  ©¦  ©À©¤ pre-merge-commit.sample
+©¦  ©¦  ©À©¤ pre-push.sample
+©¦  ©¦  ©À©¤ pre-rebase.sample
+©¦  ©¦  ©À©¤ pre-receive.sample
+©¦  ©¦  ©À©¤ prepare-commit-msg.sample
+©¦  ©¦  ©À©¤ push-to-checkout.sample
+©¦  ©¦  ©¸©¤ update.sample
+©¦  ©À©¤ info
+©¦  ©¦  ©¸©¤ exclude
+©¦  ©À©¤ objects
+©¦  ©¦  ©À©¤ info
+©¦  ©¦  ©¸©¤ pack
+©¦  ©¸©¤ refs
+©¦     ©À©¤ heads
+©¦     ©¸©¤ tags
+©À©¤ .gitignore
+©À©¤ .prettierrc
+©À©¤ log
+©¦  ©¸©¤ typeOrmÈÕÖ¾
+©À©¤ nest-cli.json
+©À©¤ package-lock.json
+©À©¤ package.json
+©À©¤ README.md
+©À©¤ src
+©¦  ©À©¤ app.controller.spec.ts
+©¦  ©À©¤ app.controller.ts
+©¦  ©À©¤ app.module.ts
+©¦  ©À©¤ app.service.ts
+©¦  ©À©¤ auth
+©¦  ©¦  ©À©¤ auth.controller.spec.ts
+©¦  ©¦  ©À©¤ auth.controller.ts
+©¦  ©¦  ©À©¤ auth.module.ts
+©¦  ©¦  ©À©¤ auth.service.spec.ts
+©¦  ©¦  ©¸©¤ auth.service.ts
+©¦  ©À©¤ log
+©¦  ©¦  ©¸©¤ LoggerMiddleware.ts
+©¦  ©À©¤ main.ts
+©¦  ©À©¤ users
+©¦  ©¦  ©À©¤ dto
+©¦  ©¦  ©¦  ©À©¤ login_users.dto.ts
+©¦  ©¦  ©¦  ©¸©¤ user_status.dto.ts
+©¦  ©¦  ©À©¤ entities
+©¦  ©¦  ©¦  ©¸©¤ users.entity.ts
+©¦  ©¦  ©À©¤ users.controller.spec.ts
+©¦  ©¦  ©À©¤ users.controller.ts
+©¦  ©¦  ©À©¤ users.module.ts
+©¦  ©¦  ©À©¤ users.service.spec.ts
+©¦  ©¦  ©¸©¤ users.service.ts
+©¦  ©¸©¤ wechat_api
+©¦     ©À©¤ dto
+©¦     ©À©¤ entities
+©¦     ©¦  ©À©¤ WeChatAccessToken.entity.ts
+©¦     ©¦  ©¸©¤ WeChatAccessTokenRepository.ts
+©¦     ©À©¤ wechat.controller.spec.ts
+©¦     ©À©¤ wechat.controller.ts
+©¦     ©À©¤ wechat.module.ts
+©¦     ©À©¤ wechat.service.spec.ts
+©¦     ©¸©¤ wechat.service.ts
+©À©¤ test
+©¦  ©À©¤ app.e2e-spec.ts
+©¦  ©¸©¤ jest-e2e.json
+©À©¤ tsconfig.build.json
+©¸©¤ tsconfig.json
 
 ```
+=======
+# nest_api
+background Api
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs
